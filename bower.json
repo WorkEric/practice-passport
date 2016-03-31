@@ -1,0 +1,19 @@
+{
+  "name": "l6",
+  "description": "",
+  "main": "",
+  "authors": [
+    "WorkEric <ruiwmichael@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ]
+}
