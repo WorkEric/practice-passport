@@ -6,8 +6,8 @@
     "WorkEric <ruiwmichael@gmail.com>"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/WorkEric/practice-passport",
   "moduleType": [],
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,5 +15,10 @@
     "public/libs",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-bootstrap": "^1.2.5",
+    "bootstrap": "^3.3.6"
+  }
 }
