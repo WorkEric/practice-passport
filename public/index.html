@@ -14,18 +14,18 @@
     <table class="table table-stripped">
         <tr>
             <th>Client</th>
-            <th>candidate</th>
-            <th>type</th>
-            <th>date</th>
-            <th>action</th>
+            <th>Candidate</th>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Action</th>
         </tr>
         <tr ng-repeat="interview in interviews">
             <td>{{interview.Client}}</td>
             <td>{{interview.Candidate}}</td>
             <td>{{interview.Type}}</td>
-            <td>{{interview.Date}}</td>
+            <td>{{interview.Date | date}}</td>
             <td>
-                <button ng-click="showQuestions(interview)">View Question</button>
+                <button class="btn btn-success" ng-click="showQuestions(interview)">View Question</button>
             </td>
         </tr>
     </table>
